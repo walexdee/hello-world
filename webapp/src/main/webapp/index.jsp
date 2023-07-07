@@ -14,9 +14,11 @@
    
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
+    <br>
 
     <label for="psw"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <br>
 
     <button type="submit">Login</button>
     <label>
