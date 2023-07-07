@@ -4,11 +4,19 @@
   </div>
 
   <div class="container">
-    <label for="username"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <label for="Name"><b>Username</b></label>
+    <input type="text" placeholder="Name" name="name" required>
     <br> 
+    
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <br> 
+   
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
     <button type="submit">Login</button>
     <label>
